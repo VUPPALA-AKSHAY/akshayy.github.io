@@ -1,0 +1,45 @@
+/*body
+{
+    display:fl;
+    justify-content: center;
+}*/
+.OUTER {
+    background-color: black;
+    height: 300px;
+    width: 89px;
+    border: 1px solid brown; 
+    padding: 20px; 
+    border-radius: 24%;
+
+}
+
+.RED, .ORANGE, .GREEN {
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px;
+}
+
+.ORANGE {
+    background-color: orange;
+    margin-top: 16px;
+
+}
+
+.GREEN {
+    background-color: green;
+    margin-top: 16%;
+}
+.HOLDER
+{
+    height: 500px;
+    width: 10px;
+    background-color: black;
+    margin-left: 61.5px;
+    border-radius: 23%;
+}

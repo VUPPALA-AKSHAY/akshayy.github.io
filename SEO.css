@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "poppins","san-serif";
+}
+/* BANNER*/
+
+.nav-banner
+{
+    background-color: #4fb3d4;
+    background-image: url("MORDERNSITE IMGS AND CODE/asset 28.png");
+    background-size: 300px;
+}
+.banner-text
+{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    
+    
+}
+
+.contanir 
+{
+    max-width: 1180px;
+    margin-inline:auto;
+    padding-inline: 20px;
+    
+}
+.LOGO {
+    background-image: url("MORDERNSITE IMGS AND CODE/LOGO.png");
+    height: 47px; 
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin: 0px 57px;
+    margin-left: 100px;
+}
+
+.NAVNBAR 
+ {
+    background-color: rgb(255, 255, 255);
+    height: 51px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 100px;
+    
+    
+}
+.NAVLINKS
+{
+    list-style: none;
+    display: flex;
+}
+
+.link 
+{
+   display: inline-block;
+   margin-right: 20px;
+   text-decoration: none;
+   color: black; 
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.link:hover { 
+    color: rgb(0, 255, 238);
+}
+.links
+{
+   
+    margin-right: 30px;
+    text-decoration: none;
+    color: black; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border:  2px solid #2294ed;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    font-weight: 700;
+}
+.links:hover { 
+    color:#2294ed
+}
+.linkss
+{
+    text-decoration: none;
+    color:white !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid #2294ed;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    font-weight: 700;
+    background-color: #2294ed;
+    
+   
+}
+.linkss:hover 
+{
+    background-color: #183b56;
+}
+/* SECTION 1 */
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 57px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.text-content {
+    max-width: 59%;
+    padding-right: 100px;
+    
+}
+
+.SEC-rightPIC {
+    flex-shrink: 0;
+    margin-right: 300px;
+}
+
+.SEC-rightPIC img {
+    max-width: 500px;
+    height: auto;
+    padding-left: 0px;
+
+}
+
+.Getstrdbutton {
+    text-decoration: none;
+    color: white !important;
+    padding: 12px 24px;
+    border: 2px solid #2294ed;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    font-weight: 700;
+    background-color: #2294ed;
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+.Getstrdbutton:hover {
+    background-color: #183b56;
+}
+
+p {
+    margin-bottom: 20px; 
+}
+.H1
+{
+    font:900;
+    white-space: nowrap;
+    font-size: 3.5rem;
+    color: #183b56;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.H1:hover 
+{ 
+    color: rgb(54, 162, 154);
+}
+.cap
+{
+    text-align: center;
+    color: #183b56;
+}
+/* COMPNIES*/
+.allcompnies
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.allcompnies img
+{
+    height: 40px; 
+    object-fit: contain;
+}
+h2
+{
+    text-align: center;
+    padding: 144px 0px 0px;
+}
+.allfeautures 
+{
+    padding: 0px 20px;
+    margin: 0px 84.5px 30px;
+}
+.TEXTSEC
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.Features-heding
+{
+    margin-bottom: 20px;
+}
+.Features-area
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    max-width: 29%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.features img
+{
+    width: 50px;
+}
+.lernnbutton
+{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border:  1px solid #000000;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    font-weight: 700;
+
+}
+.lernnbutton:hover 
+{ 
+    color:#2294ed
+}
+/* SECTIOON 2*/
+.SECTION2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 57px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+.SEC-leftPIC {
+    flex-shrink: 0;
+}
+
+.SEC-leftPIC img {
+    max-width: 500px;
+    height: 500px;
+    padding-left: 0px;
+}
+.text-contentr
+{
+    max-width: 40%;
+    margin-bottom: 100px;
+}
+.h2sec2
+{
+    padding-top: 0px;
+    text-align: left;
+    color: #183b56;
+}
+.imgg
+{
+    height: 30px;
+}
+.logotxt
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cr7img
+{
+    height:60px;
+    object-fit: contain;
+}
+.text-para
+{
+    padding-left: 30px;
+    padding-top: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+/* SECTION 3*/
+.SECTION3
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 57px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.SEC3-rightPIC
+{
+    flex-shrink: 0;
+}
+.SEC3-rightPIC img {
+    max-width: 500px;
+    height: 500px;
+    padding-left: 0px;
+}
+
+.h2sec3
+{
+    padding-top: 0px;
+    text-align: left;
+    color: #183b56;
+}
+/* SECTION 4*/
+.SECTION4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 57px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.SEC-leftPIC {
+    flex-shrink: 0;
+}
+
+.SEC-leftPIC img {
+    max-width: 500px;
+    height: 500px;
+    padding-left: 0px;
+}
+.SEC4-leftPICS
+{
+    flex-shrink: 0;
+}
+.SEC4-leftPICS img
+{
+    max-width: 500px;
+    height: 500ox;
+    padding-left: 0px;
+}
+/* EXAMPLE TEXT ABOVE IMAGES*/
+.examplesxt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.examph2
+{
+    padding: 14px 0px 0px;
+}
+.ctah2
+{
+    padding: 0px 0px 0px;
+}
+.ctasec
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #183b54;
+    padding-top: 120px;
+    color: white;
+    padding-bottom: 80px;
+}
+.ctasecbutton
+{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white !important;
+    padding: 12px 24px;
+    border: 2px solid #2294ed;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    font-weight: 700;
+    background-color: #2294ed;
+    display: inline-block;
+    margin-top: -20px;
+}
+.ctasecbutton:hover
+{
+    background-color: #183b56;
+}
+.ctap
+{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.ffoterlogo
+{
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin: 0px 57px;
+    margin-left: 100px;
+    
+}
+.mainfottor
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.bottom-Footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 100px;
+    gap:20px;
+
+}
+.hover-link
+{
+    text-decoration: none;
+    color: #183b56;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.hover-link:hover
+{
+    color: #2294ed
+}
+.h4bootm-foot
+{
+    color:#183b56;
+}
+footer
+{
+    background-color: #ebf2fa;
+    padding-block: 80px;
+}
+.subfooter
+{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    font-size: large;
+    height: 70px;
+    background-color: #b9cde4;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+
+.madeby
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+.MADEWITH
+{
+    font-size: larger;
+    color: white ;
+}
+.MADEWITH:hover
+{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.hEART
+{
+    color: red;
+}
+
+.Instagram
+{
+    text-decoration: none;
+}
+

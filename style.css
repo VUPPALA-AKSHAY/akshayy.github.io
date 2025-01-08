@@ -1,0 +1,19 @@
+body
+{
+    background-color: wheat;
+}
+h1{
+    font-size: 40px;
+    color: rgba(212, 38, 16, 0.795) ;
+    font-family: Cursive;
+}
+
+table
+{
+    border-color: rgb(0, 0, 0);
+}
+
+th
+{
+    background-color: yellow;
+}

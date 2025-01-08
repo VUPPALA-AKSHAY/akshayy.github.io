@@ -1,0 +1,46 @@
+#NAVBAR
+{
+    background-color: rgb(163, 201, 60);
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
+    padding-bottom: -6cm;
+
+}
+.menus {
+    float: right;
+    background-color: rgb(163, 201, 60);
+    padding-right: 1cm;
+}
+
+header
+{
+    color: white;
+    font-size: 40px;
+    float: left;
+    padding-left: 2cm;
+    margin-top: -1cm;
+    font-weight: 900;
+}
+
+.topmenu
+{
+    float: right;
+    background-color: rgb(163, 201, 60);
+    padding-right: 2cm;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(163, 201, 60);
+    text-decoration: underline;
+  }
+
+

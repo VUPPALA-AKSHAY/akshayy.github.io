@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar
+{
+    height: 60px;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     
+}
+.nav-logo 
+{
+    height: 50px;
+    width: 100px;
+    padding-bottom: 1%;
+    
+}
+
+.logo {
+    background-image: url("AMAZON PROJECT IMGS/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+.logo:hover
+{ 
+    border: 1px solid white;
+    border-radius: 10%;
+}
+/* ADDRESS BOX box 2*/
+.address-delver
+{
+    margin-left: 8.9px;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+.address-inda
+{
+    font-size:1rem;
+}
+.address-icon
+{
+    display: flex;
+    align-items: center;
+}
+.nav-address
+{
+    height: 50px;
+    width: 100px;
+    border: 1px solid transparent;
+    margin-top: 0.9%;
+}
+.nav-address:hover
+{
+    border: 1px solid white;   
+    border-radius: 10%;
+}
+/* BOX 3*/
+.nav-search
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+.nav-search:hover
+{
+    border:2px solid orange;
+    border-radius: 5%;
+}
+select
+{
+    height: 47.9px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    text-align: center;
+    padding-right: 1%;
+    border: none;
+}
+.search
+{
+    width: 620px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    padding-top: 0.97%;
+}
+
+button
+{
+    height: 50px;
+    width: 40px;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+    
+}
+.search-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2%;
+    
+}
+/* BOX 4*/
+#A
+{
+    font-size: 0.7rem;
+}
+.acc
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.retun
+{
+    font-size: 0.85rem;
+    font-size: 0.7rem;
+    
+}
+
+
+.Sign-in
+{
+border: 1px solid transparent;
+}
+.Sign-in:hover
+{
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.Returns
+{
+    padding-left: 10px;
+    border: 1px solid transparent;
+}
+.Returns:hover
+{
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.ac{
+    font-weight: 700;
+    padding-right: 3px;
+}
+.cart{
+    display: flex;
+    align-items:center;
+    font-size: larger;
+    border: 1px solid transparent;
+
+}
+.cart:hover
+{
+    border: 1px solid white; 
+    border-radius: 10%;
+}
+#Crt
+{
+    font-size:small;
+    font-weight:bolder;
+    margin-top: 8px;
+}
+/* PANEL*/
+.panel-all
+{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-weight:600;
+    border: 1px solid transparent;
+}
+.panel-all:hover
+{
+    box-shadow: 0 0 0 1px white;
+    border-radius: 5%;
+}
+.Panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+}
+.alloptions {
+    display: flex;
+    color: white;
+    width: 70%;
+    font-size: 0.85rem;
+    border: 1px solid transparent;
+}
+
+.alloptions p:hover {
+    box-shadow: 0 0 0 1px white;
+    border-radius: 5%;
+}
+
+.alloptions p{
+    margin-left: 15px;
+    font-weight:600;
+}
+
+
+/*HERO SECTION */
+.heroimg
+{
+    background-image: url("AMAZON PROJECT IMGS/hero_image.jpg");
+    height: 380px;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center ;
+    
+
+    
+}
+.hero-mess
+{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+    width: 95%;
+}
+.hero-mess a{
+    color: #007185;
+    text-decoration: none;
+}
+/** BOXESS**/ /**BOX1 **/
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.border /* ALL BOXES CONTROLER*/
+{
+    height: 400px;
+    width: 23%;
+    border:2px solid black;
+    padding: 20px 0px 15px;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+h2
+{
+    padding-left: 20px;
+    padding-bottom: 9px;
+}
+.more
+{
+    text-decoration: none;
+    color: #007185;
+    
+}
+.BOX1
+{
+    height: 400px;
+    width: 22%;
+    border:2px solid black;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.BOX1:hover
+{
+    background-color:rgb(241, 201, 208);
+}
+.Img1B1
+{
+    background-image: url("AMAZON PROJECT IMGS/box1_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+}
+.Img2B2
+{
+    background-image: url("AMAZON PROJECT IMGS/box2_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+}
+
+.BOX2
+{
+    height: 400px;
+    width: 22%;
+    border:2px solid black;
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.BOX2:hover
+{
+    background-color:rgb(241, 201, 208);
+}
+.BOX3
+{
+    border: none;
+    margin-top: 30px;
+    height: 405px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 15px;
+}
+.BOX3:hover
+{
+    background-color:rgb(241, 201, 208);
+}
+.Img3B3
+{
+    background-image: url("AMAZON PROJECT IMGS/box3_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX4
+{
+    border: none;
+    margin-top: 30px;
+    height: 405px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 10px;
+}
+.BOX4:hover
+{
+    background-color:rgb(241, 201, 208);
+}
+.Img4B4
+{
+    background-image: url("AMAZON PROJECT IMGS/box4_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX5
+{
+    border: none;
+    margin-top: 30px;
+    height: 400px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 10px;
+}
+.BOX5:hover
+{
+    background-color:rgb(116, 203, 240);
+}
+.Img5B5
+{
+    background-image: url("AMAZON PROJECT IMGS/box5_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX6
+{
+    border: none;
+    margin-top: 30px;
+    height: 400px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 10px;
+}
+.BOX6:hover
+{
+    background-color:rgb(116, 203, 240);
+}
+.Img6B6
+{
+    background-image: url("AMAZON PROJECT IMGS/box6_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX7
+{
+    border: none;
+    margin-top: 30px;
+    height: 400px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 10px;
+}
+.BOX7:hover
+{
+    background-color:rgb(116, 203, 240);
+}
+.Img7B7
+{
+    background-image: url("AMAZON PROJECT IMGS/box7_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX8
+{
+    border: none;
+    margin-top: 30px;
+    height: 400px;
+    width: 23%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    padding-left: 10px;
+}
+.Img8B8
+{
+    background-image: url("AMAZON PROJECT IMGS/box8_image.jpg");
+    height: 300px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    width: 95%;
+}
+.BOX8:hover
+{
+    background-color:rgb(116, 203, 240);
+
+}
+
+
+.Footer-backtotop {
+    margin-top: 50px; 
+    text-align: center; 
+}
+
+.Back-to-Top {
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Back-to-Top:hover {
+    background-color: #385be6 
+}
+.bottom-Footer
+{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center
+}
+.bottom-Footer a
+{
+    display:block;
+    margin-bottom: 10%;
+}
+.bottom-Footer p
+{
+    font-weight: 700;
+}
+.MADEBY
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+.MADEWITH
+{
+    color: rgb(255, 255, 255);
+}
+.HEART
+{
+    color: red;
+    display: inline;
+}
+h5 
+{
+    color: white;
+}
+.IG{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.Instagram
+{
+
+    text-decoration: none;
+    font-size: medium;font-weight: 600;
+}

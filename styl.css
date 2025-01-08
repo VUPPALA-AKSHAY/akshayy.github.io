@@ -1,0 +1,85 @@
+/*.B
+{
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+}
+#INNER
+{
+    background-color: aqua;
+    color: #0000ff;
+    border: 1px,solid,brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    
+    
+} 
+#OUTER {
+    background-color: rgb(202, 180, 180);
+    border: 10px solid black; 
+    height: 150px; 
+    width:  151px; 
+    padding: 5%; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column; 
+}
+*/
+#NAVBAR
+{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#LOGO
+{
+    color: orange;
+    margin-right: 200px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ELE
+{
+    color: rgb(248, 247, 247);
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: yellow;
+
+}
+input
+{
+    margin-top: 6px;
+}
+#content
+{
+    height: 600px;
+}
+.contentBOX
+{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    background-color: aqua;
+    color: black;
+    border: 5.9px solid black;
+    border-radius: 5%;
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+    
+}
+footer
+{
+    background-color:black;
+    text-align: center;
+    color: white;
+}

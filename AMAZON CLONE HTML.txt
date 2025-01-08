@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="AMAZONCLNN.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo ">
+                <div class="logo">  </div>
+            </div>
+            <div class="nav-address">
+            <div class="address">
+                <p class="address-delver"> Deliver to</p>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="address-inda"><b>India</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-search">
+            <select>
+                <option>All</option>
+            </select>
+            <input class="search" placeholder="Search Amazon">
+            <div class="search-icon">
+                <button><i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #0f1111;"></i></button>
+            </div>
+        </div>
+        
+        <div class="Sign-in">
+            <p id="A"><span>Hello,sign in</span></p>
+            <p class="acc">Account & Lists</p>
+        </div>
+
+        <div class="Returns">
+            <p class="retun"><span>Returns</span></p>
+            <p class="ac">& Orders</p>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div id="Crt">
+                <p>Cart</p>
+            </div>
+        </div>
+    </div>
+    <div class="Panel">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            <p class="Menu-all">All</p>
+        </div>
+        <div class="alloptions">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+    </div>
+</header>
+<div class="heroimg">
+    <div class="hero-mess">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in">Click here to go to amazon.in</a></p>
+    </div>
+</div>
+<div class="content">
+    <div class="BOX1 border"> 
+        <h2>Clothes</h2>
+        <div class="Img1B1">  </div>
+        <caption><a class="more" href="https://www.amazon.com/clothes/s?k=clothes" target="_self">more</a></caption>
+    </div>
+    <div class="BOX2 border"> 
+        <h2>Health & Personal care</h2>
+        <div class="Img2B2">  </div>
+        <caption><a class="more" href="https://www.amazon.in/Personal-Care/b?ie=UTF8&node=1374594031" target="_self">more</a></caption>
+    </div>
+    <div class="BOX3 border"> 
+        <h2>Furniture</h2>
+        <div class="Img3B3">  </div>
+        <caption><a class="more" href="https://www.amazon.com/Furniture/b?ie=UTF8&node=1063306" target="_self">more</a></caption>
+    </div>
+    <div class="BOX4 border"> 
+        <h2>Electronics</h2>
+        <div class="Img4B4">  </div>
+        <caption><a class="more" href="https://www.amazon.com/electronics-store/b?ie=UTF8&node=172282" target="_self">more</a></caption>
+    </div>
+    <div class="BOX5 border"> 
+        <h2>Beauty Picks</h2>
+        <div class="Img5B5">  </div>
+        <caption><a class="more" href="https://www.amazon.com/Beauty-Top-Picks/b?ie=UTF8&node=9843827011" target="_self">more</a></caption>
+    </div>
+    <div class="BOX6 border"> 
+        <h2>Pet care</h2>
+        <div class="Img6B6">  </div>
+        <caption><a class="more" href="https://www.amazon.com/Pet-Care/s?k=Pet+Care" target="_self">more</a></caption>
+    </div>
+    <div class="BOX7 border"> 
+        <h2>New Arrival in Toys</h2>
+        <div class="Img7B7">  </div>
+        <caption><a class="more" href="https://www.amazon.com/gp/new-releases/toys-and-games" target="_self">more</a></caption>
+    </div>
+    <div class="BOX8 border"> 
+        <h2>Discover Fashion Trends</h2>
+        <div class="Img8B8">  </div>
+        <caption><a class="more" href="https://www.amazon.com/Womens-Fashion-Trends/b?ie=UTF8&node=24042813011" target="_self">more</a></caption>
+    </div>
+</div>
+<footer>
+    <div class="Footer-backtotop">
+        <a class="Back-to-Top" href="#">
+            <h4>Back to Top</h4>
+        </a>
+    </div>
+</footer>
+<div class="bottom-Footer">
+    <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a> 
+        <a> About Amazon</a>
+        <a> Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a> Amazon Science</a>
+    </ul>
+
+    <ul>
+        <p>	Make Money with Us</p>
+        <a>Sell products on Amazon</a>
+        <a>	Sell on Amazon Business</a> 
+        <a> Sell apps on Amazon</a>
+        <a> Become an Affiliate</a>
+        <a>Advertise Your Products</a>
+        <a> Self-Publish with Us</a>
+    </ul>
+
+    <ul>
+        <p>	Amazon Payment Products</p>
+        <a>Amazon Business Card</a>
+        <a>Shop with Points</a> 
+        <a> Reload Your Balance</a>
+        <a> Amazon Currency Converter</a>
+    </ul>
+    <ul>
+        <p>	Let Us Help You</p>
+        <a>Amazon and COVID-19</a>
+        <a>Your Account</a> 
+        <a> Shipping Rates & Policies</a>
+        <a> Returns & Replacements</a>
+        <a>Manage Your Content and Devices</a>
+        <a> Amazon Assistant</a>
+    </ul>
+    
+</div>
+<div class="MADEBY">
+    <h5 class="MADEWITH">MADE WITH<p class="HEART">&#x2764;</p></h5>
+    <h5>BY AKSHAY</h5><br>
+</div>
+<div class="IG">
+    <h5>IG(distracted__so_ul)</h5>
+    <p><a class="Instagram" href="https://www.instagram.com/distracted__so_ul/?hl=en" target="_self">(Instagram)</a></p>
+</div>
+
+</body>
+</html>   

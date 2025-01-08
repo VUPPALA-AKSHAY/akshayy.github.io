@@ -1,0 +1,72 @@
+/*
+body
+{
+    text-align: center;
+    align-items: center;
+}
+div
+{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 5px solid black;
+}
+#contnair
+{
+    height: 200px;
+    width: 800px;
+    display:flex;
+}
+#B1
+{
+    background-color: aqua;
+}
+#B2
+{
+    background-color: pink;
+
+}
+#B3
+{
+    background-color: darkkhaki;
+
+}
+#B4
+{
+    background-color: indianred;
+}
+#B5
+{
+    background-color: slateblue;
+
+}
+*/
+
+
+*{
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-image: url("ZERODHA CLONE IMGS AND CODE/SAMPLE.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.LOGFULL
+{
+    border: 5px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 100px;
+    
+    
+}
