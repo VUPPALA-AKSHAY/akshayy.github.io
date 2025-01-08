@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* NAVBAR*/
+/*.NAV-BAR
+{
+    display: flex;
+    height: 51px;
+    width: auto;
+    background-color:rgb(255, 255, 255) !important;
+    margin-top: 25px;
+    position: fixed;
+}*/
+body
+{
+    margin-right: 0px;
+}
+.NAV-BAR {
+    display: flex;
+    height: 41px;
+    width: 100%; /* Make sure the navbar takes the full width */
+    background-color: rgb(255, 255, 255) !important; /* Ensure the background is white */
+    margin-top: 0; /* Remove margin to prevent it from being pushed down */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Ensure it stays at the top */
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(85, 70, 70, 0.1);
+}
+
+.MAINLOGO
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 0.svg");
+    height: 227px; 
+    width: 157px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin-left: 125px;
+    margin-right: 500px;
+    
+}
+.NAV-LINKS
+{
+    display: flex;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.LIS
+{
+    display: inline-block;
+    text-emphasis: none;
+    margin-right: 30px;
+    font-weight: 600;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    
+}
+.LIS:hover
+{
+    color: #387ed1;
+}
+/* SEC 1*/
+.SEC-IMG
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 7.png");
+    height: 499px;
+    width: 2362px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 10px;
+    position: static;
+    left: 50px;
+    bottom: 500px;
+    margin-top: 100px;
+}
+.SEC1-TEXT 
+{
+    text-align: center;
+    font-size: x-large;
+    color: #424242;
+    font-family: 'Arial', sans-serif;
+    font-weight:lighter;
+    margin-bottom: 15px;
+}
+.SEC1-P
+{
+    text-align: center;
+    font-size: larger;
+    font-weight:200;
+    color:#424242;
+}
+.SEC-BUTTON
+{
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #387ed1;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    border-radius: 4px;
+}
+.BTN
+{
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.SEC-BUTTON:hover
+{
+    background-color: black;
+}
+/* SECTTION 2*/
+.SEC2-CONTENT {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px; /* Optional: Space between text and image */
+    padding: 20px;
+}
+
+.SEC2-TEXTSECTION {
+    flex: 1;
+    max-width: 45%;
+}
+
+.SEC-RIGHTIMG {
+    flex: 1;
+    height: 500px;
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 600px; /* Adjust as needed */
+    flex-shrink: 0;
+    margin-right: 100px;
+}
+
+.SEC2-ALLH2 {
+    font-size: xx-large;
+    color: #424242;
+    margin-left: 125px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.SEC2h {
+    color: #424242;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.SEC2P 
+{
+    margin-left: 125px;
+    margin-top: 10px;
+    color: #666666;
+    font-size: large;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.SEC2-ENDTEXTBLUE
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 760px;
+    gap: 20px;
+    color: #387ed1;
+    font-size:medium;
+    font-weight: bolder;
+    align-items: center;
+
+}
+.SEC2-ENDTEXTBLUE:hover
+{
+    color: hsl(0, 0%, 27%);
+}
+/*COMPNIES */
+
+.ALLCOMPNIES
+{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    
+}
+.ALLCOMPNIESLOGS
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 9.png");
+    height: 100px;
+    width: 700px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+.SEC2-SUB {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.SEC2-TEXT-IMG {
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+    gap: 0px;
+}
+
+.SEC2SUB {
+    font-size: xx-large;
+    color: #424242;
+    margin-bottom: 30px;
+}
+
+.SEC2SUBP {
+    max-width: 100%;
+    color: #424242;
+    font-size: large;
+    font-weight:200;
+    margin-left: 10px; /* Add some space between the image and the text */
+}
+
+.SEC2SUBPIMG {
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 10.svg");
+    height: 100px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px; /* Adjust the margin to bring the image closer to the text */
+    padding: 0px;
+    margin-top: 60px;
+}
+
+.SEC2PRICEMAIN {
+    display: flex;
+    margin-left: 125px;
+    align-items: center;
+    margin-top: 30px;
+    color: #387ed1;
+    gap: 17px;
+    justify-content: flex-start;
+    font-size: large;
+}
+.SEC2SUB-P
+{
+    margin-right: 0px;
+    margin-top: 70px;
+    font-stretch: extra-condensed;
+    max-width: 30%;
+}
+.SEC2-SUB
+{
+    margin-right: 800px;
+    font-size:xx-small;
+    font-weight: 500;
+    margin-left: 1px;
+}
+.SEC2SUBPIMG-3
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 11.svg");
+    height: 100px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px; /* Adjust the margin to bring the image closer to the text */
+    padding: 0px;
+    margin-top: 60px;
+}
+.SEC2PRICEMAIN
+{
+    margin-bottom: 100px;
+}
+/* SECTION 4*/
+.SEC4IMG
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 12.svg");
+    height: 350px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: -50px;
+
+}
+
+.SEC4-H2
+{
+    color: #424242;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.SEC4-P
+{
+    max-width: 80%;
+    color: #424242;
+    margin-top: 30px;
+    font-weight: 590;
+}
+.SEC4-ALL
+{
+    display: flex;
+    padding-bottom: 100px;
+}
+.SEC4-TEXTALL
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.SEC4-ICON
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color:#387ed1;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+.SEC4-ICON:hover
+{
+    color: #424242;
+}
+.SEC4-ICON2
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color:#387ed1;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.SEC4-ICON2:hover
+{
+    color: #424242;
+}
+
+/* FOOTERR */
+/*
+.FOOTER-ALL
+{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 500px;
+    padding-top: 31px;
+    border: 0px;
+    border-top: 1px solid #b3b3b3;
+    display: inline-block;
+
+}
+.FOOTERLOGOO
+{
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 0.svg");
+    height: 27px; 
+    width: 157px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin-left: 125px;
+    display: inline-block;
+}
+.FOOT-P
+{
+    margin-left: 125px;
+    max-width: 20%;
+    color: #666666;
+    font-size: 15px;
+}
+.FOOTER-SOCIALLOGO 
+{
+    margin-left: 125px;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    color: #666666;
+    display: flex;
+    justify-content:space-between;
+    font-weight: bolder;
+    gap: 20px;
+    margin-top: 20px;
+    align-content: center;
+}
+.icon-gradient {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    background-clip: text;            
+    -webkit-background-clip: text;    
+    color: transparent;               
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;
+    margin-top: -2px;
+}
+
+.YOUTUBE-LOGO
+{
+    margin-left: 125px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #666666;
+    font-weight: bolder;
+    margin-top: 12px;
+    gap:20px;
+
+}
+
+.line-above-youtube {
+    width: 20%;
+    border: 0; 
+    border-top: 1px solid  #b3b3b3;
+    margin-left: 120px;
+    margin-top: 1px; 
+    margin-bottom: 10px; 
+}
+.bottom-Footerr
+{
+    display:flex
+}
+*/
+
+.FOOTER-ALL {
+    background-color: #fbfbfb;
+    width: 100%;
+    padding-top: 31px;
+    padding-bottom: 20px;
+    border-top: 1px solid #b3b3b3;
+}
+
+.footer-top {
+    margin-left: 125px;
+}
+
+.FOOTERLOGOO {
+    background-image: url("ZERODHA CLONE IMGS AND CODE/asset 0.svg");
+    height: 27px;
+    width: 157px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.FOOT-P {
+    max-width: 300px;
+    color: #666666;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.FOOTER-SOCIALLOGO {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #666666;
+    display: flex;
+    gap: 20px;
+}
+
+.FOOTER-SOCIALLOGO i {
+    color: inherit;
+}
+
+.line-above-youtube {
+    width: 20%;
+    border: 0;
+    border-top: 1px solid #b3b3b3;
+    margin-left: 125px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.YOUTUBE-LOGO {
+    margin-left: 125px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    color: #666666;
+    margin-top: 12px;
+}
+
+.YOUTUBE-LOGO i {
+    color: inherit;
+}
+
+.bottom-Footerr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 125px;
+}
+
+.footer-linkks {
+    list-style-type: none;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.footer-linkks li {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-linkks li a {
+    text-decoration: none;
+    color: #333333;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+.footer-linkks li a:hover
+{
+    color: #387ed1;
+}
+
+.icon-gradient {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    background-clip: text;            
+    -webkit-background-clip: text;    
+    color: transparent;               
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;
+    margin-top: -2px;
+}
+.P-LAST1
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    font-size: 10.4px;
+}
+.P-LAST2
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    font-size: 10.4px;
+}
+.P-LAST3
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #387ed1;
+    font-weight: bold;
+    font-size: 10.4px;
+}
+.P-LAST4
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    font-size: 10.4px;
+}
+.P-LAST5
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    font-size: 10.4px;
+}
+.P-LAST6
+{
+    margin-left: 125px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    font-size: 10.4px;
+}
+
+.LASTPARA
+{
+    height: 200px;
+    width: 100%;
+    background-color: #fbfbfb;
+}
+.LASTNAV
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 125px;
+    margin-left: 145px;
+    color: #9b9b9b;
+    font-size: 20px;
+    gap:10px
+}
+.LASTNAV p
+{
+    margin-right: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+    margin-bottom: 200px;
+}
+.LASTNAV p:hover
+{
+    color:#387ed1
+}
