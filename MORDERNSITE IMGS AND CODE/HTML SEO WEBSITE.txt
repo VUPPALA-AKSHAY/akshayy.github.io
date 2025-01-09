@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital website</title>
+    <link rel="stylesheet" href="SEO.css">
+    
+</head>
+<body>
+    
+        <!-- TOP BANNER-->
+         <div class="nav-banner">
+            <div>
+                <div class="contanir">
+                    <p class="banner-text">📢Figma prototype testing just got a whole lot better! Readmore</p>
+                </div>
+            </div>
+        </div>
+        <!-- NAV BAR-->
+         <nav>
+            <div class="NAVNBAR">
+                <div class="LOGO">
+
+                </div>
+                <div class="alllinks">
+                    <ul class="NAVLINKS">
+                        <li> <a href="#" class="link">Products</a></li>
+                        <li> <a href="#" class="link">Customer</a></li>
+                        <li> <a href="#" class="link">Pricing</a></li>
+                        <li> <a href="#" class="link">Resources</a></li>
+                        <li> <a href="#" class="links">Sign-in</a></li>
+                        <li> <a href="#" class="linkss">Sign-up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <!--SECTION 1-->
+        <div class="section1"> 
+            <div class="text-content">
+                <h1 class="H1">Design confidently.</h1>
+                <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
+                <div>
+                    <a href="#" class="Getstrdbutton">Get Started</a>
+                </div>
+            </div>
+            <div class="SEC-rightPIC">
+                <img src="MORDERNSITE IMGS AND CODE/asset 1.jpeg" alt="Heroimg">
+            </div>
+        </div>
+        <div class="cap">
+            The world's best companies rely on UsabilityHub to make better design decisions.
+        </div>
+        <!--compnies-->
+        <div class="allcompnies">
+            <img src="MORDERNSITE IMGS AND CODE/asset 2.png" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 3.png" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 4.png" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 5.png" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 6.png" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 7.svg" alt="Heroimg">
+            <img src="MORDERNSITE IMGS AND CODE/asset 8.png" alt="Heroimg">
+        </div>
+        <!--features-->
+        <div class="allfeautures">
+            <div class="TEXTSEC">
+                <h2 class="Features-heding">Your user research Swiss Army knife</h2>
+                <a href="#" class="links">See All Features <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="Features-area">
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 11.svg" alt="featureees">
+                    <h3>Card Sorting</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 12.svg" alt="featureees">
+                    <h3>Design Surveys</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 13.svg" alt="featureees">
+                    <h3>Preference Tests</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 14.svg" alt="featureees">
+                    <h3>Card Sorting</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 14.svg" alt="featureees">
+                    <h3>Card Sorting</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="features">
+                    <img src="MORDERNSITE IMGS AND CODE/asset 11.svg" alt="featureees">
+                    <h3>Card Sorting</h3>
+                    <p>Discover how people group and label information.</p>
+                    <a href="#" class="lernnbutton">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--SECTION 2-->
+        <div  class="SECTION2">
+            <div class="SEC-leftPIC">
+                <img src="MORDERNSITE IMGS AND CODE/asset 15.png" alt="Heroimg">
+            </div>
+            <div class="text-contentr">
+                <p>Effortless validation for</p>
+                <h2 class="h2sec2">Design Professionals</h2>
+                <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
+                <img class="imgg" src="MORDERNSITE IMGS AND CODE/asset 16.png" alt="Heroimg">
+                <p class="text-para">The navigation test is god's gift to UI designers, it probably has the best power-to-simplicity ratio of any software, ever.</p>
+                <div class="logotxt">
+                    <img class="cr7img"src="MORDERNSITE IMGS AND CODE/asset 17.png" alt="Heroimg">
+                    <p class="name"><strong>Cristiano Ronaldo.</strong><br> Chief Executive Officer</p>
+                </div>
+            </div>
+        </div>
+        <!--SECTION 3-->
+        <div class="SECTION3">
+            <div class="text-contentr">
+                <p>Optimisation for</p>
+                <h2 class="h2sec3">Marketers</h2>
+                <p>Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing campaigns and product launches.</p>
+                <img class="imgg" src="MORDERNSITE IMGS AND CODE/asset 18.png" alt="Heroimg">
+                <p class="text-para">We use UsabilityHub tests to help us make decisions for various projects. From web and mobile design to marketing activities..</p>
+                <div class="logotxt">
+                    <img class="cr7img"src="MORDERNSITE IMGS AND CODE/asset 19.png" alt="Heroimg">
+                    <p class="name"><strong>Pele.</strong><br> Digital Marketing Analyst</p>
+                </div>
+            </div>
+            <div class="SEC3-rightPIC">
+                <img src="MORDERNSITE IMGS AND CODE/asset 20.png" alt="Heroimg">
+            </div>
+        </div>
+        <!--section4-->
+        <div  class="SECTION4">
+            <div class="SEC4-leftPICS">
+                <img src="MORDERNSITE IMGS AND CODE/asset 21.png" alt="Heroimg">
+            </div>
+            <div class="text-contentr">
+                <p>Easier decision making for</p>
+                <h2 class="h2sec2">Product Managers</h2>
+                <p>Ensure your delivering the right features to the right customers by validating product concepts with your target audience.</p>
+                <img class="imgg" src="MORDERNSITE IMGS AND CODE/asset 22.png" alt="Heroimg">
+                <p class="text-para">Adopting UsabilityHub got us into the habit of asking our users questions before locking in decisions.</p>
+                <div class="logotxt">
+                    <img class="cr7img"src="MORDERNSITE IMGS AND CODE/asset 23.png" alt="Heroimg">
+                    <p class="name"><strong>Ozil.</strong><br> VP Innovation & New Products</p>
+                </div>
+            </div>
+        </div>
+        <div class="examplesxt">
+            <h2 class="examph2">One platform, endless possibilities</h2>
+            <a href="#" class="links">See All Features <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="ctasec">
+            <h2 class="ctah2">Starting testing today</h2>
+            <p class="ctap">Take the guesswork out of design decisions</p>
+            <a class="ctasecbutton" href="#" class="Getstrdbutton">Get Started</a>
+        </div>
+        <footer class="mainfottor">
+            <a href="#" class="company-logo">
+                <img class="ffoterlogo" src="MORDERNSITE IMGS AND CODE/asset 0.png" alt="">
+            </a>
+            <div class="bottom-Footer">
+                <h4 class="h4bootm-foot">Products</h4>
+                <a href="#" class="hover-link">Overview</a>
+                <a href="#" class="hover-link">Pricing</a>
+                <a href="#" class="hover-link">Usability Hub</a>
+                <a href="#" class="hover-link">Customers Page</a>
+                <a href="#" class="hover-link">Status Page</a>
+                <a href="#" class="hover-link">Sign-up</a>
+                <a href="#" class="hover-link">Book a demo</a>
+            </div> 
+            <div class="bottom-Footer">
+                <h4 class="h4bootm-foot">Methodology</h4>
+                <a href="#" class="hover-link">Prototype testing</a>
+                <a href="#" class="hover-link">First click tests</a>
+                <a href="#" class="hover-link">Preference tests</a>
+                <a href="#" class="hover-link">Five second tests</a>
+                <a href="#" class="hover-link">Design surveys</a>
+            </div> 
+            <div class="bottom-Footer">
+                <h4 class="h4bootm-foot">Resources</h4>
+                <a href="#" class="hover-link">Blog</a>
+                <a href="#" class="hover-link">Testing guides</a>
+                <a href="#" class="hover-link">Help center</a>
+                <a href="#" class="hover-link">Contact</a>
+                <a href="#" class="hover-link">Careers</a>
+            </div> 
+            </footer>
+            <div class="subfooter">
+                <p class="hover-link">Privacy Policy</p>
+                <p class="hover-link">Terms & Conditions</p>
+                <p class="hover-link">Security information</p>
+                <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="madeby">
+                    <h5 class="MADEWITH ">MADE WITH<a href="#" class="hEART"><i class="fa-sharp fa-solid fa-heart"></i></a></h5>
+                    <h5>BY AKSHAY</h5>
+                    <h5>IG(distracted__so_ul)</h5>
+                    <p><a class="Instagram" href="https://www.instagram.com/distracted__so_ul/?hl=en" target="_self">(Click here for my Instagram)</a></p>
+                </div>
+        <script src="https://kit.fontawesome.com/8e4b0a8fc1.js" crossorigin="anonymous"></script>
+</body>
+</html>
