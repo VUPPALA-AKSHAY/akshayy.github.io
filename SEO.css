@@ -504,4 +504,484 @@ footer
 {
     text-decoration: none;
 }
+/* Media Queries for Responsiveness */
 
+/* Extra Small Devices (320px and below) */
+@media screen and (max-width: 320px) {
+    .contanir {
+        padding-inline: 10px;
+    }
+    .nav-banner .banner-text {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+    }
+    .NAVNBAR {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin-right: 0;
+    }
+    .LOGO {
+        width: 150px;
+        height: 30px;
+        margin: 10px auto;
+    }
+    .NAVLINKS {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .link, .links, .linkss {
+        margin-right: 0;
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    .section1 {
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .text-content {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+    .H1 {
+        font-size: 2rem;
+    }
+    .SEC-rightPIC {
+        margin-right: 0;
+    }
+    .SEC-rightPIC img {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .cap {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .allcompnies {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        gap: 10px;
+    }
+    .allcompnies img {
+        height: 30px;
+    }
+    .allfeautures {
+        margin: 10px;
+        padding: 0 10px;
+    }
+    .Features-area {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .features {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .text-contentr {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .h2sec2, .h2sec3 {
+        font-size: 1.5rem;
+    }
+    .SEC-leftPIC img, .SEC3-rightPIC img, .SEC4-leftPICS img {
+        max-width: 100%;
+        height: auto;
+    }
+    .text-para {
+        padding-left: 0;
+    }
+    .logotxt {
+        justify-content: center;
+    }
+    .ctasec {
+        padding: 40px 10px;
+    }
+    .ctah2 {
+        font-size: 1.5rem;
+    }
+    .ctap {
+        font-size: 0.9rem;
+    }
+    .mainfottor {
+        flex-direction: column;
+        align-items: center;
+        padding-block: 40px;
+    }
+    .bottom-Footer {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .ffoterlogo {
+        margin: 10px auto;
+    }
+    .subfooter {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-left: 0;
+        height: auto;
+    }
+    .madeby {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/* Small Devices (321px to 576px) */
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .contanir {
+        padding-inline: 15px;
+    }
+    .nav-banner .banner-text {
+        font-size: 0.9rem;
+        padding: 12px 20px;
+    }
+    .NAVNBAR {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        margin-right: 0;
+    }
+    .LOGO {
+        width: 200px;
+        height: 35px;
+        margin: 10px auto;
+    }
+    .NAVLINKS {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .link, .links, .linkss {
+        margin-right: 0;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .section1 {
+        flex-direction: column;
+        margin: 15px;
+        padding: 15px;
+    }
+    .text-content {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+    .H1 {
+        font-size: 2.5rem;
+    }
+    .SEC-rightPIC {
+        margin-right: 0;
+    }
+    .SEC-rightPIC img {
+        max-width: 100%;
+    }
+    .cap {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .allcompnies {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px;
+        gap: 15px;
+    }
+    .allcompnies img {
+        height: 35px;
+    }
+    .allfeautures {
+        margin: 15px;
+        padding: 0 15px;
+    }
+    .Features-area {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .features {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        flex-direction: column;
+        margin: 15px;
+        padding: 15px;
+    }
+    .text-contentr {
+        max-width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .h2sec2, .h2sec3 {
+        font-size: 1.8rem;
+    }
+    .SEC-leftPIC img, .SEC3-rightPIC img, .SEC4-leftPICS img {
+        max-width: 100%;
+        height: auto;
+    }
+    .text-para {
+        padding-left: 0;
+    }
+    .ctasec {
+        padding: 50px 15px;
+    }
+    .ctah2 {
+        font-size: 1.8rem;
+    }
+    .ctap {
+        font-size: 1rem;
+    }
+    .mainfottor {
+        flex-direction: column;
+        align-items: center;
+        padding-block: 50px;
+    }
+    .bottom-Footer {
+        margin-right: 0;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .subfooter {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding-left: 0;
+        height: auto;
+    }
+}
+
+/* Medium Devices (577px to 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .contanir {
+        padding-inline: 20px;
+    }
+    .nav-banner .banner-text {
+        font-size: 1rem;
+        padding: 15px 25px;
+    }
+    .NAVNBAR {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        margin-right: 20px;
+    }
+    .LOGO {
+        width: 250px;
+        height: 40px;
+        margin: 0 20px;
+    }
+    .NAVLINKS {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .link, .links, .linkss {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    .section1 {
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    .text-content {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+    .H1 {
+        font-size: 3rem;
+    }
+    .SEC-rightPIC img {
+        max-width: 80%;
+    }
+    .cap {
+        font-size: 1.1rem;
+    }
+    .allcompnies {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        gap: 20px;
+    }
+    .allcompnies img {
+        height: 40px;
+    }
+    .Features-area {
+        justify-content: center;
+        gap: 20px;
+    }
+    .features {
+        max-width: 45%;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    .text-contentr {
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .h2sec2, .h2sec3 {
+        font-size: 2rem;
+    }
+    .SEC-leftPIC img, .SEC3-rightPIC img, .SEC4-leftPICS img {
+        max-width: 80%;
+        height: auto;
+    }
+    .ctasec {
+        padding: 60px 20px;
+    }
+    .mainfottor {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .bottom-Footer {
+        margin-right: 20px;
+        width: 40%;
+        text-align: center;
+    }
+    .subfooter {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* Large Devices (769px to 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .contanir {
+        max-width: 900px;
+    }
+    .NAVNBAR {
+        margin-right: 30px;
+    }
+    .LOGO {
+        width: 270px;
+        margin-left: 30px;
+    }
+    .NAVLINKS {
+        gap: 15px;
+    }
+    .link, .links, .linkss {
+        font-size: 0.95rem;
+        padding: 10px 18px;
+    }
+    .section1 {
+        margin: 30px;
+        padding: 20px;
+    }
+    .text-content {
+        max-width: 55%;
+        padding-right: 50px;
+    }
+    .H1 {
+        font-size: 3.2rem;
+    }
+    .SEC-rightPIC img {
+        max-width: 400px;
+    }
+    .allcompnies {
+        margin: 30px;
+        gap: 25px;
+    }
+    .Features-area {
+        gap: 25px;
+    }
+    .features {
+        max-width: 30%;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        margin: 30px;
+        padding: 20px;
+    }
+    .text-contentr {
+        max-width: 45%;
+    }
+    .SEC-leftPIC img, .SEC3-rightPIC img, .SEC4-leftPICS img {
+        max-width: 400px;
+    }
+    .mainfottor {
+        gap: 30px;
+    }
+    .bottom-Footer {
+        margin-right: 30px;
+        width: 30%;
+    }
+    .subfooter {
+        padding-left: 30px;
+    }
+}
+
+/* Extra Large Devices (993px to 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .contanir {
+        max-width: 1000px;
+    }
+    .NAVNBAR {
+        margin-right: 50px;
+    }
+    .LOGO {
+        margin-left: 50px;
+    }
+    .section1 {
+        margin: 40px;
+    }
+    .text-content {
+        max-width: 60%;
+        padding-right: 70px;
+    }
+    .SEC-rightPIC img {
+        max-width: 450px;
+    }
+    .allcompnies {
+        margin: 40px;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        margin: 40px;
+    }
+    .text-contentr {
+        max-width: 50%;
+    }
+    .SEC-leftPIC img, .SEC3-rightPIC img, .SEC4-leftPICS img {
+        max-width: 450px;
+    }
+}
+
+/* Wide Screens (1201px and above) */
+@media screen and (min-width: 1201px) {
+    .contanir {
+        max-width: 1180px;
+    }
+    .NAVNBAR {
+        margin-right: 100px;
+    }
+    .section1 {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .SEC-rightPIC {
+        margin-right: 300px;
+    }
+    .allcompnies {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .SECTION2, .SECTION3, .SECTION4 {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
