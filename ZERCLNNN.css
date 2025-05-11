@@ -724,6 +724,729 @@ h5
     font-weight: 600;
 }
 
+/* Media Queries for Responsiveness */
+
+/* Extra Small Devices (320px and below) */
+@media screen and (max-width: 320px) {
+    .NAV-BAR {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin-top: 0;
+    }
+    .MAINLOGO {
+        width: 100px;
+        height: 20px;
+        margin: 10px auto;
+    }
+    .NAV-LINKS ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .LIS {
+        margin-right: 0;
+        font-size: 0.9rem;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .SEC-IMG {
+        height: 200px;
+        width: 100%;
+        margin: 60px 0 0 0;
+        background-size: contain;
+    }
+    .SEC1-TEXT h1 {
+        font-size: 1.5rem;
+    }
+    .SEC1-P p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+    .glow-on-hover {
+        width: 160px;
+        height: 40px;
+        font-size: 0.9rem;
+        margin: 20px auto;
+        display: block;
+    }
+    .SEC2-ALLH2 {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .SEC2-CONTENT {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .SEC2-TEXTSECTION {
+        max-width: 100%;
+    }
+    .SEC2h {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    .SEC2P {
+        font-size: 0.9rem;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .SEC-RIGHTIMG {
+        height: 200px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .SEC2-ENDTEXTBLUE {
+        margin-left: 10px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+    .ALLCOMPNIESLOGS {
+        height: 50px;
+        width: 100%;
+        background-size: contain;
+    }
+    .SEC2-SUB {
+        margin-right: 0;
+    }
+    .SEC2-TEXT-IMG {
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 10px;
+    }
+    .SEC2SUB {
+        font-size: 1.5rem;
+    }
+    .SEC2SUBP, .SEC2SUB-P {
+        font-size: 0.9rem;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .SEC2SUBPIMG, .SEC2SUBPIMG-3 {
+        width: 200px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+    .SEC4-ALL {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .SEC4IMG {
+        height: 200px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 10px;
+    }
+    .SEC4-H2 {
+        font-size: 1.5rem;
+    }
+    .SEC4-P {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+    .SEC4-ICON, .SEC4-ICON2 {
+        font-size: 0.9rem;
+    }
+    .FOOTER-ALL {
+        padding: 20px 10px;
+    }
+    .footer-top {
+        margin-left: 10px;
+    }
+    .FOOTERLOGOO {
+        width: 100px;
+        height: 20px;
+    }
+    .FOOT-P {
+        max-width: 100%;
+        font-size: 0.8rem;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        font-size: 1.5rem;
+        gap: 10px;
+        margin-left: 10px;
+    }
+    .line-above-youtube {
+        margin-left: 10px;
+        width: 80%;
+    }
+    .bottom-Footerr {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .footer-linkks {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.7rem;
+    }
+    .LASTNAV {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.9rem;
+        gap: 5px;
+    }
+    .MADEBY {
+        height: auto;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .IG {
+        font-size: 0.9rem;
+        padding-bottom: 20px;
+    }
+}
+
+/* Small Devices (321px to 576px) */
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .NAV-BAR {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    .MAINLOGO {
+        width: 120px;
+        height: 25px;
+        margin: 10px auto;
+    }
+    .NAV-LINKS ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .LIS {
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    .SEC-IMG {
+        height: 250px;
+        width: 100%;
+        margin: 60px 0 0 0;
+    }
+    .SEC1-TEXT h1 {
+        font-size: 1.8rem;
+    }
+    .SEC1-P p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .glow-on-hover {
+        width: 180px;
+        height: 45px;
+        font-size: 1rem;
+        margin: 30px auto;
+        display: block;
+    }
+    .SEC2-ALLH2 {
+        font-size: 1.8rem;
+        margin-left: 15px;
+    }
+    .SEC2-CONTENT {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .SEC2-TEXTSECTION {
+        max-width: 100%;
+    }
+    .SEC2h {
+        font-size: 1.4rem;
+        margin-left: 15px;
+    }
+    .SEC2P {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+    .SEC-RIGHTIMG {
+        height: 250px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .SEC2-ENDTEXTBLUE {
+        margin-left: 15px;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 1rem;
+    }
+    .ALLCOMPNIESLOGS {
+        height: 60px;
+        width: 100%;
+    }
+    .SEC2-TEXT-IMG {
+        flex-direction: column;
+        margin-left: 15px;
+        gap: 15px;
+    }
+    .SEC2SUB {
+        font-size: 1.8rem;
+    }
+    .SEC2SUBP, .SEC2SUB-P {
+        font-size: 1rem;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .SEC2SUBPIMG, .SEC2SUBPIMG-3 {
+        width: 220px;
+        height: 70px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+    .SEC4-ALL {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .SEC4IMG {
+        height: 250px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 15px;
+    }
+    .SEC4-H2 {
+        font-size: 1.8rem;
+    }
+    .SEC4-P {
+        font-size: 1rem;
+    }
+    .footer-top {
+        margin-left: 15px;
+    }
+    .FOOTERLOGOO {
+        width: 120px;
+        height: 25px;
+    }
+    .FOOT-P {
+        font-size: 0.9rem;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        font-size: 1.8rem;
+        margin-left: 15px;
+    }
+    .line-above-youtube {
+        margin-left: 15px;
+        width: 70%;
+    }
+    .bottom-Footerr {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .footer-linkks {
+        font-size: 1rem;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 0.8rem;
+    }
+    .LASTNAV {
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 1rem;
+    }
+}
+
+/* Medium Devices (577px to 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .NAV-BAR {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .MAINLOGO {
+        width: 140px;
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .NAV-LINKS ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .LIS {
+        margin-right: 15px;
+        font-size: 0.9rem;
+    }
+    .SEC-IMG {
+        height: 300px;
+        width: 100%;
+        margin: 60px 0 0 0;
+    }
+    .SEC1-TEXT h1 {
+        font-size: 2rem;
+    }
+    .SEC1-P p {
+        font-size: 1.1rem;
+    }
+    .glow-on-hover {
+        width: 200px;
+        margin: 30px auto;
+        display: block;
+    }
+    .SEC2-ALLH2 {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    .SEC2-CONTENT {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .SEC2-TEXTSECTION {
+        max-width: 100%;
+    }
+    .SEC2h {
+        font-size: 1.6rem;
+        margin-left: 20px;
+    }
+    .SEC2P {
+        font-size: 1.1rem;
+        margin-left: 20px;
+    }
+    .SEC-RIGHTIMG {
+        height: 300px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .SEC2-ENDTEXTBLUE {
+        margin-left: 20px;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .ALLCOMPNIESLOGS {
+        height: 80px;
+        width: 100%;
+    }
+    .SEC2-TEXT-IMG {
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 20px;
+    }
+    .SEC2SUB {
+        font-size: 2rem;
+    }
+    .SEC2SUBP, .SEC2SUB-P {
+        font-size: 1.1rem;
+    }
+    .SEC2SUBPIMG, .SEC2SUBPIMG-3 {
+        width: 250px;
+        height: 80px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 20px;
+    }
+    .SEC4-ALL {
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    .SEC4IMG {
+        height: 300px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 20px;
+    }
+    .SEC4-H2 {
+        font-size: 2rem;
+    }
+    .SEC4-P {
+        font-size: 1.1rem;
+    }
+    .footer-top {
+        margin-left: 20px;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        margin-left: 20px;
+    }
+    .line-above-youtube {
+        margin-left: 20px;
+        width: 60%;
+    }
+    .bottom-Footerr {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .footer-linkks {
+        width: 45%;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 0.9rem;
+    }
+    .LASTNAV {
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Large Devices (769px to 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .NAV-BAR {
+        padding: 15px;
+    }
+    .MAINLOGO {
+        width: 140px;
+        height: 30px;
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+    .LIS {
+        margin-right: 20px;
+        font-size: 1rem;
+    }
+    .SEC-IMG {
+        height: 350px;
+        width: 90%;
+        margin: 60px auto 0;
+    }
+    .SEC1-TEXT h1 {
+        font-size: 2.5rem;
+    }
+    .SEC1-P p {
+        font-size: 1.2rem;
+    }
+    .glow-on-hover {
+        width: 220px;
+        margin: 30px auto;
+        display: block;
+    }
+    .SEC2-ALLH2 {
+        font-size: 2.2rem;
+        margin-left: 30px;
+    }
+    .SEC2-CONTENT {
+        flex-direction: row;
+        padding: 30px;
+    }
+    .SEC2-TEXTSECTION {
+        max-width: 55%;
+    }
+    .SEC2h {
+        font-size: 1.8rem;
+        margin-left: 30px;
+    }
+    .SEC2P {
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+    .SEC-RIGHTIMG {
+        height: 350px;
+        max-width: 40%;
+        margin-right: 30px;
+    }
+    .SEC2-ENDTEXTBLUE {
+        margin-left: 30px;
+    }
+    .ALLCOMPNIESLOGS {
+        height: 90px;
+        width: 90%;
+    }
+    .SEC2-TEXT-IMG {
+        margin-left: 30px;
+        gap: 20px;
+    }
+    .SEC2SUB {
+        font-size: 2.2rem;
+    }
+    .SEC2SUBP, .SEC2SUB-P {
+        font-size: 1.2rem;
+    }
+    .SEC2SUBPIMG, .SEC2SUBPIMG-3 {
+        width: 260px;
+        height: 90px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 30px;
+    }
+    .SEC4-ALL {
+        flex-direction: row;
+        padding-bottom: 80px;
+    }
+    .SEC4IMG {
+        height: 300px;
+        width: 50%;
+        margin-left: 30px;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 30px;
+    }
+    .SEC4-H2 {
+        font-size: 2.2rem;
+    }
+    .SEC4-P {
+        font-size: 1.2rem;
+    }
+    .footer-top {
+        margin-left: 30px;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        margin-left: 30px;
+    }
+    .line-above-youtube {
+        margin-left: 30px;
+    }
+    .bottom-Footerr {
+        padding: 0 30px;
+    }
+    .footer-linkks {
+        width: 30%;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .LASTNAV {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+/* Extra Large Devices (993px to 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .MAINLOGO {
+        margin-left: 50px;
+        margin-right: 200px;
+    }
+    .SEC-IMG {
+        height: 400px;
+        width: 85%;
+        margin: 60px auto 0;
+    }
+    .SEC2-ALLH2 {
+        margin-left: 50px;
+    }
+    .SEC2-CONTENT {
+        padding: 40px;
+    }
+    .SEC2-TEXTSECTION {
+        max-width: 50%;
+    }
+    .SEC2h {
+        margin-left: 50px;
+    }
+    .SEC2P {
+        margin-left: 50px;
+    }
+    .SEC-RIGHTIMG {
+        height: 400px;
+        max-width: 45%;
+        margin-right: 50px;
+    }
+    .SEC2-ENDTEXTBLUE {
+        margin-left: 50px;
+    }
+    .SEC2-TEXT-IMG {
+        margin-left: 50px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 50px;
+    }
+    .SEC4IMG {
+        margin-left: 50px;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 50px;
+    }
+    .footer-top {
+        margin-left: 50px;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        margin-left: 50px;
+    }
+    .line-above-youtube {
+        margin-left: 50px;
+    }
+    .bottom-Footerr {
+        padding: 0 50px;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .LASTNAV {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* Wide Screens (1201px and above) */
+@media screen and (min-width: 1201px) {
+    .MAINLOGO {
+        margin-left: 125px;
+        margin-right: 500px;
+    }
+    .SEC-IMG {
+        height: 499px;
+        max-width: 80%;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+    .SEC2-ALLH2 {
+        margin-left: 125px;
+    }
+    .SEC2h {
+        margin-left: 125px;
+    }
+    .SEC2P {
+        margin-left: 125px;
+    }
+    .SEC-RIGHTIMG {
+        height: 500px;
+        max-width: 600px;
+        margin-right: 100px;
+    }
+    .SEC2-TEXT-IMG {
+        margin-left: 125px;
+    }
+    .SEC2PRICEMAIN {
+        margin-left: 125px;
+    }
+    .SEC4IMG {
+        margin-left: 100px;
+    }
+    .SEC4-TEXTALL {
+        margin-left: 100px;
+    }
+    .footer-top {
+        margin-left: 125px;
+    }
+    .FOOTER-SOCIALLOGO, .YOUTUBE-LOGO {
+        margin-left: 125px;
+    }
+    .line-above-youtube {
+        margin-left: 125px;
+    }
+    .bottom-Footerr {
+        padding: 0 125px;
+    }
+    .P-LAST1, .P-LAST2, .P-LAST3, .P-LAST4, .P-LAST5, .P-LAST6 {
+        margin-left: 125px;
+        margin-right: 100px;
+    }
+    .LASTNAV {
+        margin-left: 145px;
+        margin-right: 125px;
+    }
+}
 
 
 
